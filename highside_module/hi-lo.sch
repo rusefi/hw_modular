@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:KICAD_Older_Version
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -33,7 +33,7 @@ LIBS:logo
 LIBS:logo_flipped
 LIBS:tc4427
 LIBS:hi-lo-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -298,7 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 6950 8750 7850
 $Comp
-L CONN_3X2 P601
+L Conn_01x06 P601
 U 1 1 52E6349C
 P 5350 6700
 F 0 "P601" H 5350 6950 50  0000 C CNN
@@ -309,7 +309,7 @@ F 4 "te,215309-3" H 5350 6700 60  0001 C CNN "mfg,mfg#"
 F 5 "seeed,NA" H 5350 6700 60  0001 C CNN "seeed,#"
 F 6 "digi,A106661-ND" H 5350 6700 60  0001 C CNN "vend1,vend1#"
 	1    5350 6700
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
@@ -323,15 +323,15 @@ F 3 "" H 7500 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 6750 5800 6750
+	5550 7000 5800 7000
 Wire Wire Line
-	5800 6750 5800 7450
+	5800 7000 5800 7450
 Wire Wire Line
 	5800 7450 6300 7450
 Wire Wire Line
-	6300 7650 4950 7650
+	6150 7650 6300 7650
 Wire Wire Line
-	4950 7650 4950 6750
+	6150 6900 6150 7650
 $Comp
 L R R610
 U 1 1 52E63CB5
@@ -584,7 +584,7 @@ Text Label 6100 5650 2    60   ~ 0
 H_IN3
 Text Label 6250 6750 2    60   ~ 0
 H_IN4
-Text Label 6100 7650 2    60   ~ 0
+Text Label 6150 7650 2    60   ~ 0
 H_IN5
 Text Label 6100 7450 2    60   ~ 0
 H_IN6
@@ -605,7 +605,7 @@ Text Notes 6250 3300 0    160  ~ 0
 Text GLabel 7300 5250 3    60   Input ~ 0
 5V
 Wire Wire Line
-	4950 5650 6300 5650
+	5550 5650 6300 5650
 $Comp
 L TC4427 U601
 U 1 1 531CB7D3
@@ -682,19 +682,17 @@ F 3 "" H 6650 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6750 6250 6750
-Text Label 4950 6650 2    60   ~ 0
-H_IN4
+	5750 6750 6300 6750
 Wire Wire Line
 	6300 6550 5950 6550
 Wire Wire Line
-	5950 6550 5950 6650
+	5950 6550 5950 6600
 Wire Wire Line
-	5950 6650 5750 6650
+	5950 6600 5550 6600
 Wire Wire Line
-	4950 6550 4950 5650
+	5550 6700 5550 5650
 Wire Wire Line
-	5750 6550 5750 5850
+	5750 6500 5750 5850
 Wire Wire Line
 	5750 5850 6300 5850
 $Comp
@@ -735,4 +733,32 @@ Wire Notes Line
 	7300 4650 7300 4750
 Text Notes 6450 4600 0    60   ~ 0
 JUMPER SELECTED VP VOLTAGE
+Wire Wire Line
+	5750 6500 5550 6500
+Wire Wire Line
+	5550 6900 6150 6900
+Wire Wire Line
+	5750 6750 5750 6800
+Wire Wire Line
+	5750 6800 5550 6800
+$Comp
+L CONN_2 P606
+U 1 1 5C750F49
+P 7900 4800
+F 0 "P606" V 7850 4800 40  0000 C CNN
+F 1 "CONN_2" V 7950 4800 40  0000 C CNN
+F 2 "SIL-2" H 7900 4800 60  0001 C CNN
+F 3 "" H 7900 4800 60  0000 C CNN
+F 4 "ON-SHORE,OSTVN02A150" V 7900 4800 60  0001 C CNN "MFG,MFG#"
+F 5 "SEEED,NA" V 7900 4800 60  0001 C CNN "SEEED,#"
+F 6 "DIGI,ED10561-ND" V 7900 4800 60  0001 C CNN "VEND1,VEND1#"
+	1    7900 4800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 5150 7800 5150
+Wire Wire Line
+	8000 5150 8000 5250
+Wire Wire Line
+	8000 5250 7500 5250
 $EndSCHEMATC
