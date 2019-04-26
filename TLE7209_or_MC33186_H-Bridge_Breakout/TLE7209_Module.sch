@@ -157,10 +157,6 @@ Wire Wire Line
 	6700 3400 5950 3400
 Wire Wire Line
 	6700 3550 5950 3550
-Wire Wire Line
-	6700 3750 5950 3750
-Wire Wire Line
-	6700 3900 5950 3900
 $Comp
 L power:GND #PWR0106
 U 1 1 5C65F9AE
@@ -393,6 +389,57 @@ F 1 "Conn_01x01" H 10680 951 50  0000 L CNN
 F 2 "Connector:1pin" H 10600 1000 50  0001 C CNN
 F 3 "~" H 10600 1000 50  0001 C CNN
 	1    10600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC38B64
+P 5250 3750
+AR Path="/5C754D7C/5C75764C" Ref="R?"  Part="1" 
+AR Path="/5C754D7C/5CC38B64" Ref="R?"  Part="1" 
+AR Path="/5CC38B64" Ref="R4"  Part="1" 
+F 0 "R4" H 5250 3900 50  0000 L CNN
+F 1 "10K" V 5250 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 3750 50  0001 C CNN
+F 3 "~" H 5250 3750 50  0001 C CNN
+F 4 "MOUSER" H 50  850 50  0001 C CNN "VEND"
+	1    5250 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3750 6700 3750
+$Comp
+L Device:R R?
+U 1 1 5CC3BCBC
+P 5800 4100
+AR Path="/5C754D7C/5C75764C" Ref="R?"  Part="1" 
+AR Path="/5C754D7C/5CC3BCBC" Ref="R?"  Part="1" 
+AR Path="/5CC3BCBC" Ref="R5"  Part="1" 
+F 0 "R5" H 5800 4250 50  0000 L CNN
+F 1 "10K" V 5800 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4100 50  0001 C CNN
+F 3 "~" H 5800 4100 50  0001 C CNN
+F 4 "MOUSER" H 600 1200 50  0001 C CNN "VEND"
+	1    5800 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3950 5800 3900
+Wire Wire Line
+	5800 3900 6700 3900
+Text Label 4950 3750 0    60   ~ 12
+5V
+Wire Wire Line
+	5100 3750 4950 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5CC41F47
+P 5800 4250
+F 0 "#PWR?" H 5800 4000 50  0001 C CNN
+F 1 "GND" H 5805 4077 50  0000 C CNN
+F 2 "" H 5800 4250 50  0001 C CNN
+F 3 "" H 5800 4250 50  0001 C CNN
+	1    5800 4250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

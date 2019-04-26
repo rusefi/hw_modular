@@ -1,5 +1,4 @@
-*-cache.lib
-*-rescue.lib
+*-rescue.*
 *.bak
 *.kicad_pcb-bak
 _saved*.sch
