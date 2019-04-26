@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TLE7209_Module-rescue)(type Legacy)(uri ${KIPRJMOD}/TLE7209_Module-rescue.lib)(options "")(descr ""))
+)
