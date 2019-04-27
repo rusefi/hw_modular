@@ -1,4 +1,4 @@
-update=27.04.2019 16:35:30
+update=28.04.2019 22:38:56
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=TLE7209_Module.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -84,7 +84,7 @@ OthersTextUpright=1
 SolderMaskClearance=5.1e-05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=1A EXTERNAL

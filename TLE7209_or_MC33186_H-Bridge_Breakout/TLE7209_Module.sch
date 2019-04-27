@@ -340,11 +340,11 @@ Text Label 5950 3900 0    60   ~ 12
 DIS
 Text Label 9200 1600 0    60   ~ 12
 IN1
-Text Label 9200 1800 0    60   ~ 12
+Text Label 8700 1700 2    60   ~ 12
 IN2
 Text Label 8700 1800 2    60   ~ 12
 EN
-Text Label 8700 1700 2    60   ~ 12
+Text Label 9200 1800 0    60   ~ 12
 DIS
 Text Label 4750 2550 0    60   ~ 12
 5V
@@ -432,10 +432,10 @@ Text Label 4950 3750 0    60   ~ 12
 Wire Wire Line
 	5100 3750 4950 3750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5CC41F47
 P 5800 4250
-F 0 "#PWR?" H 5800 4000 50  0001 C CNN
+F 0 "#PWR0108" H 5800 4000 50  0001 C CNN
 F 1 "GND" H 5805 4077 50  0000 C CNN
 F 2 "" H 5800 4250 50  0001 C CNN
 F 3 "" H 5800 4250 50  0001 C CNN
