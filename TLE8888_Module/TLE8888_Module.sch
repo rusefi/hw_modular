@@ -1188,25 +1188,25 @@ Text Label 10550 6700 1    50   ~ 10
 OUT_18
 Text Label 10650 6700 1    50   ~ 10
 MAIN_RELAY
-Text Label 4550 4750 0    50   ~ 10
-OUT_14
-Text Label 4050 4750 2    50   ~ 10
-OUT_15
-Text Label 4050 4650 2    50   ~ 10
-OUT_4
 Text Label 4550 4650 0    50   ~ 10
-OUT_3
+OUT_14
+Text Label 4050 4650 2    50   ~ 10
+OUT_15
 Text Label 4050 4550 2    50   ~ 10
-OUT_2
+OUT_4
 Text Label 4550 4550 0    50   ~ 10
-OUT_1
+OUT_3
 Text Label 4050 4450 2    50   ~ 10
-OUT_16
+OUT_2
 Text Label 4550 4450 0    50   ~ 10
-OUT_17
+OUT_1
+Text Label 4050 4350 2    50   ~ 10
+OUT_16
 Text Label 4550 4350 0    50   ~ 10
+OUT_17
+Text Label 4550 4250 0    50   ~ 10
 OUT_18
-Text Label 6100 6000 2    50   ~ 10
+Text Label 2400 2900 2    50   ~ 10
 MAIN_RELAY
 Text Label 13150 6250 0    50   ~ 10
 CRNK+
@@ -1242,7 +1242,7 @@ Text Label 11500 9450 0    50   ~ 10
 INJ_IN_1
 Text Label 5550 8600 0    50   ~ 10
 12V
-Text Label 4550 3650 0    50   ~ 10
+Text Label 4550 6450 0    50   ~ 10
 12V
 Text Label 8750 10100 3    50   ~ 10
 CSN
@@ -1252,31 +1252,23 @@ Text Label 8950 10100 3    50   ~ 10
 SIP
 Text Label 9150 10100 3    50   ~ 10
 FCLP
-Text Label 4550 6150 0    50   ~ 10
-FCLP
-Text Label 4050 6150 2    50   ~ 10
+Text Label 4050 5950 2    50   ~ 10
 SIP
-Text Label 4550 6050 0    50   ~ 10
-SDO
-Text Label 4050 6050 2    50   ~ 10
-CSN
 Text Label 9950 10100 3    50   ~ 10
 OUT_7
 Text Label 10550 10400 0    50   ~ 10
 CRNK_MCU
 Wire Wire Line
 	10550 10100 10550 10400
-Text Label 4550 6450 0    50   ~ 10
-CRNK_MCU
 Text Label 8000 11400 0    50   ~ 10
 5V1
 Text Label 8300 11350 0    50   ~ 10
 5V2
 Text Label 8900 11450 0    50   ~ 0
 V5V
-Text Label 4050 6250 2    50   ~ 10
+Text Label 4050 6050 2    50   ~ 10
 5V1
-Text Label 4550 6250 0    50   ~ 10
+Text Label 4550 6050 0    50   ~ 10
 5V2
 Text Label 8750 6700 1    50   ~ 10
 OUT_10
@@ -1290,17 +1282,17 @@ Text Label 9150 6700 1    50   ~ 10
 DFB_9
 Text Label 9250 6700 1    50   ~ 10
 DFB_8
-Text Label 4050 5050 2    50   ~ 10
-OUT_10
 Text Label 4050 4950 2    50   ~ 10
-DFB_10
-Text Label 4550 4950 0    50   ~ 10
-OUT_9
-Text Label 4550 5050 0    50   ~ 10
-OUT_8
+OUT_10
 Text Label 4050 4850 2    50   ~ 10
-DFB_9
+DFB_10
 Text Label 4550 4850 0    50   ~ 10
+OUT_9
+Text Label 4550 4950 0    50   ~ 10
+OUT_8
+Text Label 4050 4750 2    50   ~ 10
+DFB_9
+Text Label 4550 4750 0    50   ~ 10
 DFB_8
 Text Label 8100 7300 2    50   ~ 10
 OUT_11
@@ -1318,22 +1310,20 @@ Text Label 8000 8000 2    50   ~ 10
 OUT_5
 Text Label 8000 8200 2    50   ~ 10
 OUT_24
-Text Label 4050 5250 2    50   ~ 10
-OUT_11
-Text Label 4050 5350 2    50   ~ 10
-OUT_12
-Text Label 4050 5450 2    50   ~ 10
-OUT_13
 Text Label 4050 5150 2    50   ~ 10
+OUT_11
+Text Label 4050 5250 2    50   ~ 10
+OUT_12
+Text Label 4050 5350 2    50   ~ 10
+OUT_13
+Text Label 4050 5050 2    50   ~ 10
 DFB_11
-Text Label 4550 5450 0    50   ~ 10
-DFB_12
 Text Label 4550 5350 0    50   ~ 10
+DFB_12
+Text Label 4550 5250 0    50   ~ 10
 DFB_13
-Text Label 4550 5150 0    50   ~ 10
+Text Label 4550 5050 0    50   ~ 10
 OUT_5
-Text Label 4550 5750 0    50   ~ 10
-OUT_24
 Text Label 8000 8400 2    50   ~ 10
 OUT_23
 Text Label 8000 8500 2    50   ~ 10
@@ -1342,10 +1332,8 @@ Text Label 8000 8700 2    50   ~ 10
 OUT_21
 Text Label 8000 8900 2    50   ~ 10
 OUT_6
-Text Label 4050 5650 2    50   ~ 10
+Text Label 4550 5450 0    50   ~ 10
 OUT_23
-Text Label 4050 5750 2    50   ~ 10
-OUT_21
 Text Label 7350 9200 2    50   ~ 10
 IGN_OUT_1
 Text Label 8100 9300 2    50   ~ 10
@@ -1354,25 +1342,17 @@ Text Label 8100 9400 2    50   ~ 10
 IGN_OUT_3
 Text Label 8100 9500 2    50   ~ 10
 IGN_OUT_4
-Text Label 4050 5950 2    50   ~ 10
-IGN_OUT_3
-Text Label 4550 5950 0    50   ~ 10
-IGN_OUT_4
-Text Label 4050 5850 2    50   ~ 10
-IGN_OUT_1
 Text Label 10250 10450 0    50   ~ 10
 OUT_19
 Text Label 10150 10550 0    50   ~ 10
 OUT_20
-Text Label 4050 6450 2    50   ~ 10
-OUT_19
 Text Label 12550 5550 0    50   ~ 10
 12V
 Text Label 15050 7250 0    50   ~ 10
 CAN_L
 Text Label 15050 7950 0    50   ~ 10
 CAN_H
-Text Label 4550 5550 0    60   ~ 12
+Text Label 4550 6550 0    60   ~ 12
 V5V
 $Comp
 L Connector_Generic:Conn_02x39_Odd_Even J2
@@ -1389,73 +1369,61 @@ Text Label 4050 3550 2    60   ~ 12
 V5V
 Text Label 4050 3450 2    60   ~ 12
 GND
-Text Label 4050 3650 2    50   ~ 10
+Text Label 4050 6450 2    50   ~ 10
 12V
 Text Label 8100 7800 2    50   ~ 0
 LIN_IO
-Text Label 5950 6350 2    50   ~ 0
-LIN_IO
-Text Label 4550 5250 0    50   ~ 10
+Text Label 4550 5150 0    50   ~ 10
 OUT_6
-Text Label 4550 5850 0    50   ~ 10
-IGN_OUT_2
-Text Label 4550 5650 0    50   ~ 10
+Text Label 4550 5550 0    50   ~ 10
 OUT_22
 Text Label 10750 10100 3    50   ~ 0
 LIN_RX
 Text Label 10650 10100 3    50   ~ 0
 LIN_TX
-Text Label 6000 6250 2    50   ~ 0
-LIN_RX
-Text Label 5750 6150 0    50   ~ 0
+Text Label 2900 3200 0    50   ~ 0
 LIN_TX
-Text Label 4050 3850 2    50   ~ 10
+Text Label 4050 3750 2    50   ~ 10
 INJ_IN_2
-Text Label 4050 3950 2    50   ~ 10
+Text Label 4050 3850 2    50   ~ 10
 INJ_IN_4
-Text Label 2750 4100 2    50   ~ 10
+Text Label 2400 3000 2    50   ~ 10
 CAN_L
-Text Label 4050 4050 2    50   ~ 10
+Text Label 4050 3950 2    50   ~ 10
 IGN_IN_2
-Text Label 4050 4150 2    50   ~ 10
+Text Label 4050 4050 2    50   ~ 10
 IGN_IN_4
-Text Label 4050 4250 2    50   ~ 10
+Text Label 4050 4150 2    50   ~ 10
 IN_10
-Text Label 4050 4350 2    50   ~ 10
+Text Label 4050 4250 2    50   ~ 10
 IN_12
-Text Label 2750 4000 2    50   ~ 10
+Text Label 2900 3000 0    50   ~ 10
 CAN_TX
-Text Label 4550 3850 0    50   ~ 10
-INJ_IN_3
-Text Label 4050 3750 2    60   ~ 12
-VDD
-Text Label 3000 4100 0    50   ~ 10
-CAN_H
 Text Label 4550 3750 0    50   ~ 10
+INJ_IN_3
+Text Label 4050 3650 2    60   ~ 12
+VDD
+Text Label 2400 3100 2    50   ~ 10
+CAN_H
+Text Label 4550 3650 0    50   ~ 10
 INJ_IN_1
-Text Label 4550 3950 0    50   ~ 10
+Text Label 4550 3850 0    50   ~ 10
 IGN_IN_1
-Text Label 4550 4050 0    50   ~ 10
+Text Label 4550 3950 0    50   ~ 10
 IGN_IN_3
-Text Label 4550 4150 0    50   ~ 10
+Text Label 4550 4050 0    50   ~ 10
 IN_9
-Text Label 4550 4250 0    50   ~ 10
+Text Label 4550 4150 0    50   ~ 10
 IN_11
-Text Label 3000 4000 0    50   ~ 10
+Text Label 2900 2900 0    50   ~ 10
 CAN_RX
 Wire Wire Line
 	12850 5950 12850 6250
 Wire Wire Line
 	12850 6550 12850 6750
-Text Label 4050 6550 2    50   ~ 10
-CRNK+
-Text Label 4550 6550 0    50   ~ 10
-CRNK-
-Text Label 4550 6350 0    50   ~ 10
-OUT_20
 Text Label 4050 6350 2    50   ~ 10
-OUT_7
-Text Label 4050 5550 2    60   ~ 12
+CRNK+
+Text Label 4050 6550 2    60   ~ 12
 V5V
 Text Label 4050 6650 2    60   ~ 12
 GND
@@ -1463,4 +1431,69 @@ Text Label 4550 6650 0    60   ~ 12
 GND
 Text Label 4550 3550 0    60   ~ 12
 V5V
+Text Label 4550 6350 0    50   ~ 10
+CRNK-
+Text Label 4550 5650 0    50   ~ 10
+IGN_OUT_2
+Text Label 4550 5750 0    50   ~ 10
+IGN_OUT_4
+Text Label 4050 5450 2    50   ~ 10
+OUT_24
+Text Label 4550 6250 0    50   ~ 10
+CRNK_MCU
+Text Label 4550 5850 0    50   ~ 10
+SDO
+Text Label 4550 5950 0    50   ~ 10
+FCLP
+Text Label 4050 6250 2    50   ~ 10
+OUT_19
+Text Label 4050 5650 2    50   ~ 10
+IGN_OUT_1
+Text Label 4050 5750 2    50   ~ 10
+IGN_OUT_3
+Text Label 4050 5550 2    50   ~ 10
+OUT_21
+Text Label 4050 5850 2    50   ~ 10
+CSN
+Text Label 4050 6150 2    50   ~ 10
+OUT_7
+Text Label 4550 6150 0    50   ~ 10
+OUT_20
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5CDB3DEE
+P 7100 4850
+F 0 "HS1" H 7242 4971 50  0000 L CNN
+F 1 "Heatsink" H 7242 4880 50  0000 L CNN
+F 2 "Heatsink:HEATSINK" H 7112 4850 50  0001 C CNN
+F 3 "~" H 7112 4850 50  0001 C CNN
+	1    7100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J3
+U 1 1 5CE5CF8D
+P 2600 3000
+F 0 "J3" H 2650 3317 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2650 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 2600 3000 50  0001 C CNN
+F 3 "~" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	1    0    0    -1  
+$EndComp
+Text Label 2400 3200 2    50   ~ 0
+LIN_IO
+Text Label 2900 3100 0    50   ~ 0
+LIN_RX
+$Comp
+L Mechanical:Heatsink HS2
+U 1 1 5CF47684
+P 7100 5350
+F 0 "HS2" H 7242 5471 50  0000 L CNN
+F 1 "Heatsink" H 7242 5380 50  0000 L CNN
+F 2 "Heatsink:HEATSINK" H 7112 5350 50  0001 C CNN
+F 3 "~" H 7112 5350 50  0001 C CNN
+	1    7100 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
