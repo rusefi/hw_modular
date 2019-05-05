@@ -1,0 +1,14 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D5,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D4,D3,D2,D1";"SOT-23";16;"BAS70-04FILM";;;
+2;"U16,U11,U6,U5";"TSSOP-14_4.4x5mm_P0.65mm";4;"MCP6004";;;
+3;"U2,U13,U12,U1";"R_Array_Convex_4x0603";4;"10K";;;
+4;"J1";"PinSocket_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
+5;"U20,U19,U10,U9";"R_Array_Convex_4x0603";4;"1.5K";;;
+6;"U18,U17,U8,U7";"R_Array_Convex_4x0603";4;"1K";;;
+7;"U15,U14,U4,U3";"R_Array_Convex_4x0603";4;"10nF";;;
+8;"R22,R21,R18,R14,R13,R10,R8,R6,R4,R3";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";10;"500K";;;
+9;"R20,R19,R17,R11,R9,R7,R5,R2,R1";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";9;"DNP";;;
+10;"R16";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10K";;;
+11;"R15";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"39K";;;
+12;"R12";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"1K";;;
+13;"C4,C3,C2,C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;"0.1uF";;;
