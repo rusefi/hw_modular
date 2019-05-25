@@ -7,3 +7,5 @@ v 0.3 ordered on 03/12/2019
 ```
 
 ![3D](3d_view.png)
+
+iBom https://rusefi.com/docs/ibom/hi-lo_latest.html
