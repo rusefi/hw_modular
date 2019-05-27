@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name BOSCH_154_PIN)(type Legacy)(uri C:/Users/Ola/Documents/Rusefi_Modules/BOSCH_154_PIN.lib)(options "")(descr ""))
+  (lib (name TLE8888)(type Legacy)(uri ${KIPRJMOD}/TLE8888.lib)(options "")(descr ""))
 )
