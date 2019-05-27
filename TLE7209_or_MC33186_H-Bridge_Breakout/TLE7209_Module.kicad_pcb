@@ -11,9 +11,9 @@
 
   (page A)
   (title_block
-    (title "ME7 ECU")
+    (title "TLE7209-2R Module")
     (date 2019-01-31)
-    (rev R2.1)
+    (rev R0.1)
   )
 
   (layers
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2159)
     (user_trace_width 0.2159)
