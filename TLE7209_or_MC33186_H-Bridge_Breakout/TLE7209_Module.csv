@@ -1,0 +1,11 @@
+    C1,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8.85012E+11,MOUSER,710-885012008026
+    C2,33nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8.85012E+11,MOUSER,710-885012008026
+    C3,10nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8.85012E+11,MOUSER,710-885012208052
+    D1,TPSMB24A,Diode_SMD:D_SMA,TPSMB24A,MOUSER,576-TPSMB24A
+    J1,Conn_02x06_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,,,
+    J3,Conn_01x01,Connector:1pin,,,
+    R1,47K,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,
+    R2,1M,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,
+    R3,4.7K,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,
+">  R4, R5",10K,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,
+    U1,TLE7209-2R,Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias,,,

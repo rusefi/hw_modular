@@ -1,20 +1,23 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"R23,R23";"TLE8888";2;"TLE8888 LOGO DNP";;;
-2;"R34,R33,R32,R31,R30,R28,R27,R26,R25,R24,R14,R11,R1";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";13;"1K";;;
-3;"D17,D16,D15,D14,D13,D11,D10,D9,D8,D7,D5,D4,D3";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";13;"LED";;;
-4;"Q1";"TO-252-2";1;"IPD30N06S2L-23";;;
-5;"R22";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"120R";;;
-6;"R21,R20";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"2.7K";;;
-7;"R19,R18,R17,R16,R15,R13,R12,R9,R7,R6,R5";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";11;"0";;;
-8;"R10,R8,R4,R3,R2";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";5;"4.7K";;;
-9;"C16,C14,C13,C10,C6,C5,C4,C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";8;"100nF";;;
-10;"C15,C12";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"1nF";;;
-11;"C11,C3";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"4.7nF";;;
-12;"C9,C8,C7";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"10uF";;;
-13;"J3";"PinHeader_2x04_P2.54mm_Vertical";1;"Conn_02x04_Odd_Even";;;
-14;"J1";"1pin";1;"Conn_01x01";;;
-15;"C2";"CP_Elec_10x10.5";1;"100UF 50V";;;
-16;"J2";"Conn_TLE8888_Module";1;"Conn_02x39_Odd_Even";;;
-17;"U2";"LQFP-100_14x14mm_P0.5mm_THERMAL";1;"TLE8888QK";;;
-18;"D2";"SOT-323_SC-70_Handsoldering";1;"PESD1CAN-UX";;;
-19;"D1";"D_SMB";1;"MBRS3200T3G";;;
+Designator,Package,Quantity,Designation,
+"R23,R23",TLE8888,2,1K,
+"R34,R33,R32,R31,R30,R28,R27,R26,R25,R24,R14,R11,R1",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,13,1K,
+"D17,D16,D15,D14,D13,D11,D10,D9,D8,D7,D5,D4,D3",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,13,LED,
+Q1,TO-252-2,1,IPD30N06S2L-23,726-IPD30N06S2L23AT3
+R22,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,120R,
+"R21,R20",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,2.7K,
+"R19,R18,R17,R16,R15,R13,R12,R9,R7,R6,R5",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,11,0R,
+"R10,R8,R4,R3,R2",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,5,4.7K,
+"C16,C14",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,100nF 100V,
+"C15,C12",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,1nF,
+"C13,C10,C6,C5,C4,C1",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,6,100nF 50V,
+C11,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,4.7nF 50V,
+"C9,C8",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,10uF 25V ,
+C7,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,10uF 50V ,
+C3,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,4.7nF,
+J3,PinHeader_2x04_P2.54mm,1,Conn_02x04_Odd_Even,
+J1,1pin,1,Conn_01x01,
+C2,Capacitor_10x10.5mm,1,100UF 50V,647-UCD1H101MNL1GS
+J2,Conn_TLE8888_Module,1,Conn_02x39_Odd_Even,
+U2,LQFP-100_14x14mm_P0.5mm,1,TLE8888QK,726-TLE88882QKXUMA1
+D2,SOT-323_SC-70_Handsoldering,1,PESD1CAN-UX,771-PESD1CANUX
+D1,D_SMB,1,MBRS3200T3G,863-MBRS3200T3G

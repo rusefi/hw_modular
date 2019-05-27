@@ -1,14 +1,17 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"D5,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D4,D3,D2,D1";"SOT-23";16;"BAS70-04FILM";;;
-2;"U16,U11,U6,U5";"TSSOP-14_4.4x5mm_P0.65mm";4;"MCP6004";;;
-3;"U2,U13,U12,U1";"R_Array_Convex_4x0603";4;"10K";;;
-4;"J1";"PinSocket_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
-5;"U20,U19,U10,U9";"R_Array_Convex_4x0603";4;"1.5K";;;
-6;"U18,U17,U8,U7";"R_Array_Convex_4x0603";4;"1K";;;
-7;"U15,U14,U4,U3";"R_Array_Convex_4x0603";4;"10nF";;;
-8;"R22,R21,R18,R14,R13,R10,R8,R6,R4,R3";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";10;"500K";;;
-9;"R20,R19,R17,R11,R9,R7,R5,R2,R1";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";9;"DNP";;;
-10;"R16";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10K";;;
-11;"R15";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"39K";;;
-12;"R12";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"1K";;;
-13;"C4,C3,C2,C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;"0.1uF";;;
+v  C1-C4,0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,4
+        C1,0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1
+        C2,0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1
+        C3,0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1
+        C4,0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1
+>  D1-D16,BAS70-04FILM,Package_TO_SOT_SMD:SOT-23,BAS70-04FILM,16
+    J1,Conn_02x20_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,,1
+    R12,1K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,"DNP,DNP",1
+    R15,39K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,"DNP,DNP",1
+    R16,10K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1
+">  R1, R2, R5, R7, R9, R11, R17, R19, R20",DNP,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,"DNP,DNP",9
+">  R3, R4, R6, R8, R10, R13, R14, R18, R21, R22",500K,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,"DNP,DNP",10
+">  U5, U6, U11, U16",MCP6004,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,579-MCP6004T-I/ST,4
+">  U7, U8, U17, U18",1K,Resistor_SMD:R_Array_Convex_4x0603,667-EXB-V8V102JV,4
+">  U9, U10, U19, U20",1.5K,Resistor_SMD:R_Array_Convex_4x0603,667-EXB-V8V152JV,4
+">  U1, U2, U12, U13",10K,Resistor_SMD:R_Array_Convex_4x0603,603-YC324-JK-0710KL,4
+">  U3, U4, U14, U15",10nF,Resistor_SMD:R_Array_Convex_4x0603,80-CA064X103K2RAUTO,4
