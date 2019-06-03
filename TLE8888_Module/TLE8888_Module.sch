@@ -1199,7 +1199,7 @@ Text Label 8000 11400 0    50   ~ 10
 5V1
 Text Label 8300 11350 0    50   ~ 10
 5V2
-Text Label 8900 11450 0    50   ~ 0
+Text Label 8900 11450 0    50   ~ 6
 V5V
 Text Label 4050 6050 2    50   ~ 10
 5V1
@@ -1306,17 +1306,17 @@ Text Label 4050 3450 2    60   ~ 12
 GND
 Text Label 4050 6450 2    50   ~ 10
 12V
-Text Label 8100 7800 2    50   ~ 0
+Text Label 8100 7800 2    50   ~ 6
 LIN_IO
 Text Label 4550 5150 0    50   ~ 10
 OUT_6
 Text Label 4550 5550 0    50   ~ 10
 OUT_22
-Text Label 10750 10100 3    50   ~ 0
+Text Label 10750 10100 3    50   ~ 6
 LIN_RX
-Text Label 10650 10100 3    50   ~ 0
+Text Label 10650 10100 3    50   ~ 6
 LIN_TX
-Text Label 2400 3200 2    50   ~ 0
+Text Label 2400 3200 2    50   ~ 6
 LIN_TX
 Text Label 4050 3750 2    50   ~ 10
 INJ_IN_2
@@ -1463,9 +1463,9 @@ F 4 "MOUSER" H -4150 -6250 50  0001 C CNN "VEND"
 	1    3150 3650
 	0    1    1    0   
 $EndComp
-Text Label 2900 3200 0    50   ~ 0
+Text Label 2900 3200 0    50   ~ 6
 LIN_RX
-Text Label 2900 3000 0    50   ~ 0
+Text Label 2900 3000 0    50   ~ 6
 LIN_IO
 $Comp
 L Device:LED D5
