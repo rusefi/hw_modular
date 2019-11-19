@@ -8,4 +8,6 @@ v 0.3 ordered on 03/12/2019
 
 ![3D](3d_view.png)
 
+![3D](hi_side.png)
+
 iBom https://rusefi.com/docs/ibom/hi-lo_latest.html
