@@ -12,7 +12,11 @@ vdd input: logic level voltage from MCU used as reference to SPI etc communicati
 
 
 Open collector hall configurations:
-DNP R9 R13 R15 R16 R18 R19. R17=2.7K R12=10K 
+DNP=R9=R15=R16=C12=C15. R17=2.7K R12=10K 
+R13=0R R18=2.7K R19=2.7K
+
+
+Validation: R(VR_IN_2, GND
 
 
 ```
