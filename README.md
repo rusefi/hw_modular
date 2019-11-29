@@ -29,3 +29,6 @@ If you download complete repo do not forget to download libraries. If you git cl
 If you download complete repo do not forget to download libraries. If you git clone be sure to also
 
 `git submodule update --init`
+
+
+![image](wings_20191129.jpg)
