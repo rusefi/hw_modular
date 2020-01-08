@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "TLE7209 Module"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -447,7 +447,7 @@ U 1 1 5E196218
 P 3000 2675
 F 0 "C4" H 3115 2721 50  0000 L CNN
 F 1 "CP1" H 3115 2630 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x6.7" H 3000 2675 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3000 2675 50  0001 C CNN
 F 3 "~" H 3000 2675 50  0001 C CNN
 	1    3000 2675
 	1    0    0    -1  
