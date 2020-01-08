@@ -307,9 +307,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 2650 4750 2550
 Wire Wire Line
-	2500 3100 3450 3100
+	2500 3100 3000 3100
 Wire Wire Line
-	2500 1900 3450 1900
+	2500 1900 3000 1900
 Text Label 8700 3300 0    60   ~ 12
 OUT1
 Text Label 9200 1400 0    60   ~ 12
@@ -318,7 +318,7 @@ Text Label 8700 3800 0    60   ~ 12
 OUT2
 Text Label 8700 1500 2    60   ~ 12
 OUT2
-Text Label 3000 3100 0    60   ~ 12
+Text Label 2675 1900 0    60   ~ 12
 12V
 Text Label 9200 1900 0    60   ~ 12
 12V
@@ -434,4 +434,36 @@ Wire Wire Line
 Connection ~ 7250 2500
 Wire Wire Line
 	7250 2500 7400 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5E1959D7
+P 3000 3100
+F 0 "#PWR?" H 3000 2850 50  0001 C CNN
+F 1 "GND" H 3005 2927 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E196218
+P 3000 2675
+F 0 "C?" H 3115 2721 50  0000 L CNN
+F 1 "CP1" H 3115 2630 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3000 2675 50  0001 C CNN
+F 3 "~" H 3000 2675 50  0001 C CNN
+	1    3000 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2825 3000 3100
+Connection ~ 3000 3100
+Wire Wire Line
+	3000 3100 3450 3100
+Wire Wire Line
+	3000 2525 3000 1900
+Connection ~ 3000 1900
+Wire Wire Line
+	3000 1900 3450 1900
 $EndSCHEMATC
