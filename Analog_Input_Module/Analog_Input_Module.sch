@@ -5,9 +5,9 @@ EELAYER END
 $Descr User 20866 12992
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Analog Input Module"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
