@@ -31,6 +31,6 @@ If you download complete repo do not forget to download libraries. If you git cl
 `git submodule update --init`
 
 
-![image](wings_20191129.jpg
+![image](wings_20191129.jpg)
 
 See [Manhattan Standard](Manhattan_standard.md)
