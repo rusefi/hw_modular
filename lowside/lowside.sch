@@ -193,7 +193,7 @@ $EndSheet
 $Sheet
 S 4150 2800 600  300 
 U 5E29F23D
-F0 "sheet5E29F237" 50
+F0 "pair2" 50
 F1 "pair.sch" 50
 F2 "IN1" I L 4150 2900 50 
 F3 "IN2" I L 4150 3000 50 
@@ -203,7 +203,7 @@ $EndSheet
 $Sheet
 S 4150 3300 600  300 
 U 5E29F7FD
-F0 "sheet5E29F7F6" 50
+F0 "pair3" 50
 F1 "pair.sch" 50
 F2 "IN1" I L 4150 3400 50 
 F3 "IN2" I L 4150 3500 50 
@@ -213,7 +213,7 @@ $EndSheet
 $Sheet
 S 4150 3800 600  300 
 U 5E29F803
-F0 "sheet5E29F7F7" 50
+F0 "pair4" 50
 F1 "pair.sch" 50
 F2 "IN1" I L 4150 3900 50 
 F3 "IN2" I L 4150 4000 50 
@@ -311,7 +311,7 @@ Wire Wire Line
 $Sheet
 S 4150 4300 600  300 
 U 5E2D1A09
-F0 "sheet5E2D1A02" 50
+F0 "pair5" 50
 F1 "pair.sch" 50
 F2 "IN1" I L 4150 4400 50 
 F3 "IN2" I L 4150 4500 50 
@@ -321,7 +321,7 @@ $EndSheet
 $Sheet
 S 4150 4800 600  300 
 U 5E2D1A0F
-F0 "sheet5E2D1A03" 50
+F0 "pair6" 50
 F1 "pair.sch" 50
 F2 "IN1" I L 4150 4900 50 
 F3 "IN2" I L 4150 5000 50 
