@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -556,4 +556,94 @@ F 3 "" H 6450 3250 50  0001 C CNN
 	1    6450 3250
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4150 5300 600  300 
+U 5E2B6330
+F0 "pair7" 50
+F1 "pair.sch" 50
+F2 "IN1" I L 4150 5400 50 
+F3 "IN2" I L 4150 5500 50 
+F4 "OUT1" O R 4750 5400 50 
+F5 "OUT2" O R 4750 5500 50 
+$EndSheet
+Text GLabel 4900 5500 2    50   BiDi ~ 0
+OUT13
+Text GLabel 4900 5400 2    50   BiDi ~ 0
+OUT14
+Wire Wire Line
+	4900 5500 4750 5500
+Wire Wire Line
+	4750 5400 4900 5400
+Text GLabel 4050 5500 0    50   Input ~ 0
+IN13
+Wire Wire Line
+	4050 5500 4150 5500
+Wire Wire Line
+	4150 5400 4050 5400
+Text GLabel 4050 5400 0    50   Input ~ 0
+IN14
+Text GLabel 3100 5400 2    50   Input ~ 0
+IN14
+Text GLabel 3100 5100 2    50   Input ~ 0
+IN13
+Text GLabel 3100 5300 2    50   BiDi ~ 0
+OUT14
+Text GLabel 3100 5200 2    50   BiDi ~ 0
+OUT13
+Wire Wire Line
+	3100 5200 2550 5200
+Wire Wire Line
+	3100 5300 2550 5300
+Wire Wire Line
+	2550 5300 2050 5300
+Connection ~ 2550 5300
+Wire Wire Line
+	2050 5200 2550 5200
+Connection ~ 2550 5200
+Wire Wire Line
+	3100 5100 2550 5100
+Wire Wire Line
+	3100 5400 2550 5400
+Wire Wire Line
+	2050 2400 2550 2400
+Connection ~ 2550 2400
+Wire Wire Line
+	2550 2500 2050 2500
+Connection ~ 2550 2500
+Wire Wire Line
+	2050 2800 2550 2800
+Connection ~ 2550 2800
+Wire Wire Line
+	2550 2900 2050 2900
+Connection ~ 2550 2900
+Wire Wire Line
+	2050 3000 2550 3000
+Connection ~ 2550 3000
+Wire Wire Line
+	2050 3300 2550 3300
+Connection ~ 2550 3300
+Wire Wire Line
+	2050 3500 2550 3500
+Connection ~ 2550 3500
+Wire Wire Line
+	2050 3800 2550 3800
+Connection ~ 2550 3800
+Wire Wire Line
+	2050 4100 2550 4100
+Connection ~ 2550 4100
+Wire Wire Line
+	2550 4400 2050 4400
+Connection ~ 2550 4400
+Wire Wire Line
+	2550 4600 2050 4600
+Connection ~ 2550 4600
+Wire Wire Line
+	2550 4900 2050 4900
+Connection ~ 2550 4900
+Wire Wire Line
+	2550 5100 2050 5100
+Connection ~ 2550 5100
+Wire Wire Line
+	2550 5400 2050 5400
+Connection ~ 2550 5400
 $EndSCHEMATC
