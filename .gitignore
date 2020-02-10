@@ -21,12 +21,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
-
-
 # Mac stuff
 # General
 .DS_Store
@@ -55,3 +49,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# IntelliJ Projects
+.idea
