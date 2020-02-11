@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name vnld5090)(type Legacy)(uri "$(KIPRJMOD)/../rusefi_lib/vnld5090.lib")(options "")(descr ""))
+)
