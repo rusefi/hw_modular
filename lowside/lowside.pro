@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-update=2/15/2020 9:09:24 PM
-=======
 update=2/15/2020 8:48:14 PM
->>>>>>> 49915b2d407decdf1e2a343be88d2097c61aa302
 version=1
 last_client=kicad
 [general]
