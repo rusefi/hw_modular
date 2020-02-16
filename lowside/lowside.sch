@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 8
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2020-02-15"
+Rev "R0.1"
+Comp "rusEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""
