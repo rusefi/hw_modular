@@ -2,6 +2,8 @@
 
 iBom https://rusefi.com/docs/ibom/TLE8888_Module_latest.html
 
+[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1496)
+
 Brief overview of functionality
 
 12v input: single input
