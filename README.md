@@ -11,15 +11,19 @@ If you download complete repo do not forget to download libraries. If you git cl
 
 # Modules
 
-[Nucleo 144 base board](NUCLEO144_wing)
+[Nucleo 144 Wings Base Board](NUCLEO144_wing)
 
-[6 channel hi-side driver](highside_module)
+[TLE8888 Base Chip](TLE8888_Module)
 
-[Protected Analog Inputs Module](Analog_Input_Module)
+[Protected Analog Inputs](Analog_Input_Module)
 
-[TLE7209 or MC33186 H-Bridge](TLE7209_or_MC33186_H-Bridge_Breakout)
+[6 channel Hi-Side Driver](highside_module)
 
-[TLE8888 base chip](TLE8888_Module)
+[14 channel Low-Side Driver](lowside)
+
+[TLE7209 H-Bridge](TLE7209_or_MC33186_H-Bridge_Breakout)
+
+[Wideband Sense CJ125](cj125_Module)
 
 # See also
 
