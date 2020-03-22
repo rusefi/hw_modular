@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -857,6 +857,36 @@ COM
 Text Label 1400 3750 0    60   ~ 12
 NO
 $Comp
+L power:GND #PWR?
+U 1 1 5E78B4D4
+P 3700 5675
+F 0 "#PWR?" H 3700 5675 30  0001 C CNN
+F 1 "GND" H 3700 5605 30  0001 C CNN
+F 2 "" H 3700 5675 60  0001 C CNN
+F 3 "" H 3700 5675 60  0001 C CNN
+	1    3700 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3380 5675 3700 5675
+$Comp
+L power:GND #PWR?
+U 1 1 5E7957B2
+P 2520 5675
+F 0 "#PWR?" H 2520 5675 30  0001 C CNN
+F 1 "GND" H 2520 5605 30  0001 C CNN
+F 2 "" H 2520 5675 60  0001 C CNN
+F 3 "" H 2520 5675 60  0001 C CNN
+	1    2520 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 5675 2520 5675
+Text Label 2875 5775 2    50   ~ 0
+5v
+Text Label 2870 5875 2    50   ~ 0
+12v
+$Comp
 L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 5E7F5A31
 P 3075 6575
@@ -867,4 +897,8 @@ F 3 "~" H 3075 6575 50  0001 C CNN
 	1    3075 6575
 	1    0    0    -1  
 $EndComp
+Text Label 3375 5775 0    50   ~ 0
+5v
+Text Label 3375 5875 0    50   ~ 0
+12v
 $EndSCHEMATC
