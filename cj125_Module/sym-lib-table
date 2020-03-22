@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Cj125_LQPF32)(type Legacy)(uri ${KIPRJMOD}/Cj125_LQPF32.lib)(options "")(descr ""))
+)
