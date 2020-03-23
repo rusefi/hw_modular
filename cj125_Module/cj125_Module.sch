@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -15,21 +15,21 @@ Comment4 ""
 $EndDescr
 Text HLabel 7700 3250 2    60   Input ~ 12
 CJ125_UR-1
-Text HLabel 6350 3050 2    60   Input ~ 12
+Text HLabel 6400 3050 2    60   Input ~ 12
 CJ125-1-SCK
 Text HLabel 7500 2850 2    60   Input ~ 12
 CJ125-1-SO
-Text HLabel 6350 2950 2    60   Input ~ 12
+Text HLabel 6400 2950 2    60   Input ~ 12
 CJ125-1-SS
-Text HLabel 6350 2750 2    60   Input ~ 12
+Text HLabel 6400 2750 2    60   Input ~ 12
 CJ125-1-SI
-Text HLabel 2700 5000 0    60   Input ~ 12
+Text HLabel 3625 5000 0    60   Input ~ 12
 LSUIA1
-Text HLabel 2250 3400 0    60   Input ~ 12
+Text HLabel 3625 3400 0    60   Input ~ 12
 LSUUN1
 Text HLabel 7250 5250 0    60   Input ~ 12
 CJ125_HEATER-1
-Text HLabel 2175 4400 0    60   Input ~ 12
+Text HLabel 3000 4100 0    60   Input ~ 12
 LSUVM1
 $Comp
 L Device:C C5
@@ -231,14 +231,14 @@ $EndComp
 $Comp
 L Device:R R6
 U 1 1 5CE9AAB5
-P 4000 2300
-F 0 "R6" V 3875 2300 50  0000 C CNN
-F 1 "21.6K" V 4000 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 730 -875 60  0001 C CNN
-F 3 "" H 4000 2300 60  0001 C CNN
-F 4 " C25872" H 100 0   50  0001 C CNN "LCSC"
-F 5 " C22962" H 100 0   50  0001 C CNN "Part #"
-	1    4000 2300
+P 4000 2525
+F 0 "R6" V 3875 2525 50  0000 C CNN
+F 1 "21.6K" V 4000 2525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 730 -650 60  0001 C CNN
+F 3 "" H 4000 2525 60  0001 C CNN
+F 4 " C25872" H 100 225 50  0001 C CNN "LCSC"
+F 5 " C22962" H 100 225 50  0001 C CNN "Part #"
+	1    4000 2525
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -277,14 +277,14 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 4E39E9BD
-P 2500 3950
-F 0 "R2" V 2600 3950 50  0000 C CNN
-F 1 "220R" V 2500 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V -1695 -225 60  0001 C CNN
-F 3 "" H 2500 3950 60  0001 C CNN
-F 4 " C22962" H 100 0   50  0001 C CNN "LCSC"
-F 5 " C22962" H 100 0   50  0001 C CNN "Part #"
-	1    2500 3950
+P 2175 3950
+F 0 "R2" V 2275 3950 50  0000 C CNN
+F 1 "220R" V 2175 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -2020 -225 60  0001 C CNN
+F 3 "" H 2175 3950 60  0001 C CNN
+F 4 " C22962" H -225 0   50  0001 C CNN "LCSC"
+F 5 " C22962" H -225 0   50  0001 C CNN "Part #"
+	1    2175 3950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -417,7 +417,7 @@ F 3 "" H 9450 3350 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2700 5000 3700 5000
+	3625 5000 3700 5000
 Wire Wire Line
 	6350 3250 6700 3250
 Wire Wire Line
@@ -517,10 +517,6 @@ F 5 "C25741" H 100 0   50  0001 C CNN "Part #"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4800 4100 4500 4100
-Wire Wire Line
-	4500 4100 4500 4050
-Wire Wire Line
 	3750 3400 4800 3400
 Wire Wire Line
 	4000 3700 4000 3650
@@ -586,11 +582,10 @@ F 3 "" H 5700 5450 60  0001 C CNN
 	1    5700 5450
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 4100
 Connection ~ 3700 5000
 Connection ~ 4700 4650
 Wire Wire Line
-	2250 3400 3700 3400
+	3625 3400 3700 3400
 Wire Wire Line
 	6350 4900 6500 4900
 Wire Wire Line
@@ -620,7 +615,7 @@ F 3 "" H 9000 4950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 4650 4700 4650
+	4675 4650 4700 4650
 Wire Wire Line
 	5450 1250 5450 2050
 Connection ~ 5450 2050
@@ -633,7 +628,7 @@ Wire Wire Line
 	6500 2650 6550 2650
 Wire Wire Line
 	5450 1250 6500 1250
-Text HLabel 2700 4650 0    60   Input ~ 12
+Text HLabel 4675 4650 0    60   Input ~ 12
 LSUIP1
 Wire Wire Line
 	3750 3400 3700 3400
@@ -688,102 +683,62 @@ F 3 "" H 7450 2550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3275 3250 3275 3675
-Wire Wire Line
-	3275 3250 4800 3250
-$Comp
-L Device:R R3
-U 1 1 5E26A2A2
-P 2500 4250
-F 0 "R3" V 2600 4250 50  0000 C CNN
-F 1 "82.5R" V 2500 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V -1695 75  60  0001 C CNN
-F 3 "" H 2500 4250 60  0001 C CNN
-F 4 "C23117" H 100 0   50  0001 C CNN "LCSC"
-	1    2500 4250
-	-1   0    0    1   
-$EndComp
+	2175 3250 4800 3250
 Wire Wire Line
 	3000 4100 3000 4400
-Wire Wire Line
-	3000 4400 2500 4400
-Connection ~ 2500 4400
-Wire Wire Line
-	3000 4100 4500 4100
-Wire Wire Line
-	2175 4400 2500 4400
-Wire Wire Line
-	2325 3800 2500 3800
-Wire Wire Line
-	3275 3675 2500 3675
-Wire Wire Line
-	2500 3675 2500 3800
-Connection ~ 2500 3800
+Connection ~ 2175 3800
 $Comp
 L power:GND #PWR01
 U 1 1 5E2882FA
-P 775 4150
-F 0 "#PWR01" H 775 4150 30  0001 C CNN
-F 1 "GND" H 775 4080 30  0001 C CNN
-F 2 "" H 775 4150 60  0001 C CNN
-F 3 "" H 775 4150 60  0001 C CNN
-	1    775  4150
+P 775 4200
+F 0 "#PWR01" H 775 4200 30  0001 C CNN
+F 1 "GND" H 775 4130 30  0001 C CNN
+F 2 "" H 775 4200 60  0001 C CNN
+F 3 "" H 775 4200 60  0001 C CNN
+	1    775  4200
 	0    1    1    0   
 $EndComp
-Text HLabel 975  3450 0    60   Input ~ 12
+Text HLabel 975  2075 0    60   Input ~ 12
 4.2_4.9
 $Comp
 L Device:R R7
 U 1 1 5E289116
-P 4000 2600
-F 0 "R7" V 3900 2575 50  0000 C CNN
-F 1 "10K" V 4000 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 730 -575 60  0001 C CNN
-F 3 "" H 4000 2600 60  0001 C CNN
-F 4 " C25744" H 100 0   50  0001 C CNN "LCSC"
-	1    4000 2600
+P 4000 2825
+F 0 "R7" V 3900 2800 50  0000 C CNN
+F 1 "10K" V 4000 2825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 730 -350 60  0001 C CNN
+F 3 "" H 4000 2825 60  0001 C CNN
+F 4 " C25744" H 100 225 50  0001 C CNN "LCSC"
+	1    4000 2825
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4550 2750 4550 2150
+	4550 2750 4550 2375
 Wire Wire Line
-	4550 2150 4000 2150
-Connection ~ 4000 2150
+	4550 2375 4000 2375
+Connection ~ 4000 2375
+Connection ~ 4000 2675
 Wire Wire Line
-	4000 2450 3875 2450
-Connection ~ 4000 2450
-Wire Wire Line
-	4000 2750 4000 3050
+	4000 2975 4000 3050
 Wire Wire Line
 	4000 3050 4300 3050
 $Comp
 L Analog_Switch:TS5A3166DCKR U1
 U 1 1 5E374439
-P 1075 4050
-F 0 "U1" V 925 4300 50  0000 L CNN
-F 1 "TS5A3166DCKR" V 1025 4275 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1025 3900 50  0001 C CNN
-F 3 " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" H 1075 4150 50  0001 C CNN
-	1    1075 4050
+P 1075 4100
+F 0 "U1" V 925 4350 50  0000 L CNN
+F 1 "TS5A3166DCKR" V 1025 4325 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1025 3950 50  0001 C CNN
+F 3 " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" H 1075 4200 50  0001 C CNN
+	1    1075 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2325 3800 2325 3975
 Text Label 1375 4150 0    60   ~ 12
 5V
 Wire Wire Line
-	1875 3750 1875 3975
+	2175 4400 2175 4100
 Wire Wire Line
-	1875 3975 2325 3975
-Wire Wire Line
-	1075 3750 1875 3750
-Wire Wire Line
-	1875 4350 1875 4100
-Wire Wire Line
-	1875 4100 2500 4100
-Wire Wire Line
-	1075 4350 1875 4350
-Connection ~ 2500 4100
+	1075 4400 2175 4400
 $Comp
 L Analog_Switch:TS5A3166DCKR U2
 U 1 1 5E3A77C6
@@ -796,15 +751,7 @@ F 3 " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" H 3125 2475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3675 2150 3675 2075
-Wire Wire Line
-	3675 2075 3125 2075
-Wire Wire Line
-	3675 2150 4000 2150
-Wire Wire Line
-	3875 2450 3875 2675
-Wire Wire Line
-	3875 2675 3125 2675
+	4000 2075 3125 2075
 $Comp
 L power:GND #PWR03
 U 1 1 5E3B8C76
@@ -821,9 +768,7 @@ Text Label 3425 2475 0    60   ~ 12
 Wire Wire Line
 	3025 2075 2000 2075
 Wire Wire Line
-	1575 2075 1575 3450
-Wire Wire Line
-	975  3450 975  3750
+	975  2075 975  3800
 $Comp
 L Device:R R1
 U 1 1 5E3C2317
@@ -837,10 +782,6 @@ F 4 " C25744" H -1900 -375 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 Connection ~ 2000 2075
-Wire Wire Line
-	2000 2075 1575 2075
-Wire Wire Line
-	975  3450 1575 3450
 $Comp
 L power:GND #PWR02
 U 1 1 5E3C6EE3
@@ -852,28 +793,26 @@ F 3 "" H 2000 2375 60  0001 C CNN
 	1    2000 2375
 	1    0    0    -1  
 $EndComp
-Text Label 1225 4350 0    60   ~ 12
+Text Label 1400 4400 0    60   ~ 12
 COM
-Text Label 1400 3750 0    60   ~ 12
+Text Label 1400 3800 0    60   ~ 12
 NO
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E78B4D4
 P 3700 5675
-F 0 "#PWR?" H 3700 5675 30  0001 C CNN
+F 0 "#PWR0101" H 3700 5675 30  0001 C CNN
 F 1 "GND" H 3700 5605 30  0001 C CNN
 F 2 "" H 3700 5675 60  0001 C CNN
 F 3 "" H 3700 5675 60  0001 C CNN
 	1    3700 5675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3380 5675 3700 5675
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5E7957B2
 P 2520 5675
-F 0 "#PWR?" H 2520 5675 30  0001 C CNN
+F 0 "#PWR0102" H 2520 5675 30  0001 C CNN
 F 1 "GND" H 2520 5605 30  0001 C CNN
 F 2 "" H 2520 5675 60  0001 C CNN
 F 3 "" H 2520 5675 60  0001 C CNN
@@ -882,9 +821,9 @@ F 3 "" H 2520 5675 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	2875 5675 2520 5675
-Text Label 2875 5775 2    50   ~ 0
-5v
-Text Label 2870 5875 2    50   ~ 0
+Text Label 2825 5775 2    50   ~ 0
+5V
+Text Label 2825 5875 2    50   ~ 0
 12v
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J1
@@ -897,8 +836,135 @@ F 3 "~" H 3075 6575 50  0001 C CNN
 	1    3075 6575
 	1    0    0    -1  
 $EndComp
-Text Label 3375 5775 0    50   ~ 0
-5v
-Text Label 3375 5875 0    50   ~ 0
+Text Label 3425 5775 0    50   ~ 0
+5V
+Text Label 3425 5875 0    50   ~ 0
 12v
+Wire Wire Line
+	3375 5675 3700 5675
+Text HLabel 3375 6275 2    60   Input ~ 12
+CJ125_UR-1
+$Comp
+L power:GND #PWR0103
+U 1 1 5E7C08F8
+P 2875 7575
+F 0 "#PWR0103" H 2875 7575 30  0001 C CNN
+F 1 "GND" H 2875 7505 30  0001 C CNN
+F 2 "" H 2875 7575 60  0001 C CNN
+F 3 "" H 2875 7575 60  0001 C CNN
+	1    2875 7575
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E7C1B55
+P 3375 7575
+F 0 "#PWR0104" H 3375 7575 30  0001 C CNN
+F 1 "GND" H 3375 7505 30  0001 C CNN
+F 2 "" H 3375 7575 60  0001 C CNN
+F 3 "" H 3375 7575 60  0001 C CNN
+	1    3375 7575
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3375 5975 2    60   Input ~ 12
+CJ125_HEATER-1
+Text HLabel 3375 7075 2    60   Input ~ 12
+LSUIA1
+Text HLabel 3375 6875 2    60   Input ~ 12
+LSUIP1
+Text HLabel 3375 6775 2    60   Input ~ 12
+LSUVM1
+Text HLabel 3375 6075 2    60   Input ~ 12
+LSU-HEAT-GATE
+Text HLabel 3375 6175 2    60   Input ~ 12
+4.2_4.9
+Text HLabel 3375 6475 2    60   Input ~ 12
+CJ125-1-SO
+Text HLabel 3375 6375 2    60   Input ~ 12
+CJ125-1-SCK
+Text HLabel 3375 6675 2    60   Input ~ 12
+CJ125-1-SS
+Text HLabel 3375 6575 2    60   Input ~ 12
+CJ125-1-SI
+Text HLabel 3375 7175 2    60   Input ~ 12
+CJ125-UA-1
+Text HLabel 3375 6975 2    60   Input ~ 12
+LSUUN1
+Wire Wire Line
+	2175 3250 2175 3800
+Wire Wire Line
+	3000 4100 4800 4100
+Wire Wire Line
+	1075 3800 2175 3800
+Wire Wire Line
+	975  2075 2000 2075
+$Comp
+L Device:R R3
+U 1 1 5E26A2A2
+P 2325 4400
+F 0 "R3" V 2425 4400 50  0000 C CNN
+F 1 "82.5R" V 2325 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -1870 225 60  0001 C CNN
+F 3 "" H 2325 4400 60  0001 C CNN
+F 4 "C23117" H -75 150 50  0001 C CNN "LCSC"
+	1    2325 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2475 4400 3000 4400
+Connection ~ 2175 4400
+Wire Wire Line
+	3125 2675 4000 2675
+Wire Wire Line
+	4000 2075 4000 2375
+Wire Wire Line
+	6350 3050 6400 3050
+Wire Wire Line
+	6350 2950 6400 2950
+Wire Wire Line
+	6350 2750 6400 2750
+NoConn ~ 3375 7275
+NoConn ~ 3375 7375
+NoConn ~ 3375 7475
+NoConn ~ 2875 7475
+NoConn ~ 2875 7375
+NoConn ~ 2875 7275
+Wire Wire Line
+	3375 5975 2875 5975
+Wire Wire Line
+	2875 6075 3375 6075
+Wire Wire Line
+	2875 6175 3375 6175
+Wire Wire Line
+	2875 6275 3375 6275
+Wire Wire Line
+	2875 6375 3375 6375
+Wire Wire Line
+	2875 6475 3375 6475
+Wire Wire Line
+	2875 6575 3375 6575
+Wire Wire Line
+	2875 6675 3375 6675
+Wire Wire Line
+	2875 6775 3375 6775
+Wire Wire Line
+	2875 6875 3375 6875
+Wire Wire Line
+	2875 6975 3375 6975
+Wire Wire Line
+	2875 7175 3375 7175
+Wire Wire Line
+	2875 7075 3375 7075
+Wire Wire Line
+	3375 5775 3425 5775
+Wire Wire Line
+	3375 5875 3425 5875
+Wire Wire Line
+	2825 5875 2875 5875
+Wire Wire Line
+	2825 5775 2875 5775
+Wire Wire Line
+	3375 5975 3375 5875
+Connection ~ 3375 5975
+Connection ~ 3375 5875
 $EndSCHEMATC
