@@ -1,7 +1,7 @@
 @echo off
 
 set inputFile=R0.1/cj125_Module_R0.1.csv
-set outputFile=R0.1/cj125_Module_R0.1.csv-bom.csv
+set outputFile=R0.1/cj125_Module_R0.1-bom.csv
 
 
 echo "Translating from %inputFile% to %outputFile%"

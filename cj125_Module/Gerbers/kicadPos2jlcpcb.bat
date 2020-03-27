@@ -2,8 +2,8 @@ rem
 rem This script takes care only of the mechanical part of the transformation - there is still manual rotation at least for some diodes!
 rem 
 
-set inputFile=lowside-top-pos.csv
-set outputFile=Modular_Lowside-R0.1-cpl.csv
+set inputFile=cj125_Module-top-pos.csv
+set outputFile=R0.1/Modular_CJ125_R0.1-cpl.csv
 
 if not exist %inputFile% echo Not found %inputFile%
 if not exist %inputFile% exit -1
