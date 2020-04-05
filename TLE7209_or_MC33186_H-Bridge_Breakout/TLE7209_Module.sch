@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:TLE7209_Module-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TLE7209 Module"
-Date ""
-Rev "0.2"
-Comp ""
+Date "2020-04-05"
+Rev "0.3"
+Comp "rusEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -382,30 +381,15 @@ AR Path="/5C754D7C/5C75764C" Ref="R?"  Part="1"
 AR Path="/5C754D7C/5CC38B64" Ref="R?"  Part="1" 
 AR Path="/5CC38B64" Ref="R4"  Part="1" 
 F 0 "R4" H 5250 3900 50  0000 L CNN
-F 1 "10K" V 5250 3750 50  0000 C CNN
+F 1 "2.2K" V 5250 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 3750 50  0001 C CNN
 F 3 "~" H 5250 3750 50  0001 C CNN
-F 4 " C17414" H 0   0   50  0001 C CNN "LSLC"
+F 4 "C101970" H 0   0   50  0001 C CNN "LSLC"
 	1    5250 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5400 3750 6700 3750
-$Comp
-L Device:R R?
-U 1 1 5CC3BCBC
-P 5800 4100
-AR Path="/5C754D7C/5C75764C" Ref="R?"  Part="1" 
-AR Path="/5C754D7C/5CC3BCBC" Ref="R?"  Part="1" 
-AR Path="/5CC3BCBC" Ref="R5"  Part="1" 
-F 0 "R5" H 5800 4250 50  0000 L CNN
-F 1 "10K" V 5800 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4100 50  0001 C CNN
-F 3 "~" H 5800 4100 50  0001 C CNN
-F 4 " C17414" H 0   0   50  0001 C CNN "LSLC"
-	1    5800 4100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5800 3950 5800 3900
 Wire Wire Line
@@ -446,7 +430,7 @@ L Device:CP1 C4
 U 1 1 5E196218
 P 3000 2675
 F 0 "C4" H 3115 2721 50  0000 L CNN
-F 1 "CP1" H 3115 2630 50  0000 L CNN
+F 1 "100uF" H 3115 2630 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10" H 3000 2675 50  0001 C CNN
 F 3 "~" H 3000 2675 50  0001 C CNN
 	1    3000 2675
@@ -462,4 +446,19 @@ Wire Wire Line
 Connection ~ 3000 1900
 Wire Wire Line
 	3000 1900 3450 1900
+$Comp
+L Device:R R?
+U 1 1 5CC3BCBC
+P 5800 4100
+AR Path="/5C754D7C/5C75764C" Ref="R?"  Part="1" 
+AR Path="/5C754D7C/5CC3BCBC" Ref="R?"  Part="1" 
+AR Path="/5CC3BCBC" Ref="R5"  Part="1" 
+F 0 "R5" H 5800 4250 50  0000 L CNN
+F 1 "2.2K" V 5800 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4100 50  0001 C CNN
+F 3 "~" H 5800 4100 50  0001 C CNN
+F 4 "C101970" H 0   0   50  0001 C CNN "LSLC"
+	1    5800 4100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
