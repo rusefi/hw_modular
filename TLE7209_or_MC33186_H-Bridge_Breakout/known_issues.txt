@@ -1,1 +1,2 @@
- 1) RESOLVED IN R0.# TBD
+ 1) RESOLVED IN R0.2 C4 100uF added
+ 2) RESOLVED IN R0.3 R4&R5 values should be anything between 1.5K and 4.7K
