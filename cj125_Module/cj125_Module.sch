@@ -733,7 +733,7 @@ F 3 " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf" H 1075 4200 50  0001 C CNN
 	1    1075 4100
 	0    1    1    0   
 $EndComp
-Text Label 1375 4150 0    60   ~ 12
+Text Label 1375 4200 0    60   ~ 12
 5V
 Wire Wire Line
 	2175 4400 2175 4100
@@ -876,18 +876,6 @@ Wire Wire Line
 	1075 3800 2175 3800
 Wire Wire Line
 	975  2075 2000 2075
-$Comp
-L Device:R R3
-U 1 1 5E26A2A2
-P 2325 4400
-F 0 "R3" V 2425 4400 50  0000 C CNN
-F 1 "82.5R" V 2325 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V -1870 225 60  0001 C CNN
-F 3 "" H 2325 4400 60  0001 C CNN
-F 4 "C23117" H -75 150 50  0001 C CNN "LCSC"
-	1    2325 4400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2475 4400 3000 4400
 Connection ~ 2175 4400
@@ -1037,4 +1025,18 @@ F 5 "C11702" H -2900 3500 50  0001 C CNN "Part #"
 	1    0    0    1   
 $EndComp
 Connection ~ 5300 7100
+Text Notes 1750 1825 0    50   ~ 0
+If no U1 or U2 are populated, this will default to LSU4.9.\nLSU4.2 is when R6 + R7 = 10k ohms\nLSU4.2 is when R3 = 82.5 ohms\n\nLSU4.9 is when R6 + R7 = 31.6k ohms\nLSU4.9 is when R2 + R3 = 301 ohms, we have 32.5 + 220 = 302.5\n\nIf U1 and U2 are populated, then \nLSU4.9 is when J1 pins 11, 12 are +V, and \nLSU4.2 is when J1 pins 11, 12 are 0V or not connected.
+$Comp
+L Device:R R3
+U 1 1 5E26A2A2
+P 2325 4400
+F 0 "R3" V 2425 4400 50  0000 C CNN
+F 1 "82.5R" V 2325 4400 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -1870 225 60  0001 C CNN
+F 3 "" H 2325 4400 60  0001 C CNN
+F 4 "C23117" H -75 150 50  0001 C CNN "LCSC"
+	1    2325 4400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
