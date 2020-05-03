@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Wideband Module"
-Date "2019-01-31"
-Rev "R0.1"
+Date "2020-05-03"
+Rev "R0.1.1"
 Comp "Ruud Bilelektro for rusEFI"
 Comment1 ""
 Comment2 ""
@@ -57,7 +57,7 @@ F 5 "C25744" H 100 0   50  0001 C CNN "Part #"
 	1    6700 2650
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6500 1450 2    60   Input ~ 12
+Text HLabel 6850 1450 2    60   Input ~ 12
 5V
 Text HLabel 9750 3400 2    60   Input ~ 12
 CJ125-UA-1
@@ -92,14 +92,14 @@ $EndComp
 $Comp
 L Device:C C4
 U 1 1 5CE9AAC4
-P 5750 1650
-F 0 "C4" V 5705 1710 50  0000 L CNN
-F 1 "33nF" V 5700 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 1530 -325 60  0001 C CNN
-F 3 "" H 5750 1650 60  0001 C CNN
-F 4 " C1585" H 400 -2900 50  0001 C CNN "Part #"
-F 5 " C1585" H 100 0   50  0001 C CNN "LCSC"
-	1    5750 1650
+P 5775 1650
+F 0 "C4" V 5730 1710 50  0000 L CNN
+F 1 "33nF" V 5725 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1555 -325 60  0001 C CNN
+F 3 "" H 5775 1650 60  0001 C CNN
+F 4 " C1585" H 425 -2900 50  0001 C CNN "Part #"
+F 5 " C1585" H 125 0   50  0001 C CNN "LCSC"
+	1    5775 1650
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -349,7 +349,7 @@ F 3 "" H 8000 4475 60  0001 C CNN
 	1    8000 4475
 	-1   0    0    1   
 $EndComp
-Text HLabel 5750 2100 2    60   Input ~ 12
+Text HLabel 5775 2100 2    60   Input ~ 12
 WO2-12V
 $Comp
 L Device:R R17
@@ -449,7 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4950 8650 4950
 Wire Wire Line
-	5750 2250 5750 1800
+	5775 2250 5775 1800
 Wire Wire Line
 	9450 3450 8950 3450
 Connection ~ 8950 3450
@@ -460,49 +460,38 @@ Wire Wire Line
 $Comp
 L power:GND #PWR08
 U 1 1 5CE9AAD3
-P 5750 1500
-F 0 "#PWR08" H 5750 1500 30  0001 C CNN
-F 1 "GND" H 5750 1430 30  0001 C CNN
-F 2 "" H 5750 1500 60  0001 C CNN
-F 3 "" H 5750 1500 60  0001 C CNN
-	1    5750 1500
+P 5775 1500
+F 0 "#PWR08" H 5775 1500 30  0001 C CNN
+F 1 "GND" H 5775 1430 30  0001 C CNN
+F 2 "" H 5775 1500 60  0001 C CNN
+F 3 "" H 5775 1500 60  0001 C CNN
+	1    5775 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5350 2250 5350 2050
-Wire Wire Line
-	5350 2050 5000 2050
-Wire Wire Line
-	5000 2050 5000 1550
 $Comp
 L Device:C C3
 U 1 1 5CE9AAD4
-P 5000 1400
-F 0 "C3" V 4955 1460 50  0000 L CNN
-F 1 "33nF" V 4950 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 780 -575 60  0001 C CNN
-F 3 "" H 5000 1400 60  0001 C CNN
-F 4 " C1585" H -350 -3150 50  0001 C CNN "Part #"
-F 5 " C1585" H 100 0   50  0001 C CNN "LCSC"
-	1    5000 1400
+P 6850 1100
+F 0 "C3" V 6805 1160 50  0000 L CNN
+F 1 "33nF" V 6800 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 2630 -875 60  0001 C CNN
+F 3 "" H 6850 1100 60  0001 C CNN
+F 4 " C1585" H 1500 -3450 50  0001 C CNN "Part #"
+F 5 " C1585" H 1950 -300 50  0001 C CNN "LCSC"
+	1    6850 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5CE9AAD5
-P 5000 1250
-F 0 "#PWR05" H 5000 1250 30  0001 C CNN
-F 1 "GND" H 5000 1180 30  0001 C CNN
-F 2 "" H 5000 1250 60  0001 C CNN
-F 3 "" H 5000 1250 60  0001 C CNN
-	1    5000 1250
+P 6850 950
+F 0 "#PWR05" H 6850 950 30  0001 C CNN
+F 1 "GND" H 6850 880 30  0001 C CNN
+F 2 "" H 6850 950 60  0001 C CNN
+F 3 "" H 6850 950 60  0001 C CNN
+	1    6850 950 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5550 2250 5550 2050
-Wire Wire Line
-	5550 2050 5450 2050
-Connection ~ 5350 2050
 $Comp
 L Device:R R4
 U 1 1 5CE9AAC5
@@ -617,29 +606,16 @@ $EndComp
 Wire Wire Line
 	4675 4650 4700 4650
 Wire Wire Line
-	5450 1250 5450 2050
-Connection ~ 5450 2050
-Wire Wire Line
-	5450 2050 5350 2050
-Wire Wire Line
 	6350 2650 6500 2650
 Connection ~ 6500 2650
 Wire Wire Line
 	6500 2650 6550 2650
-Wire Wire Line
-	5450 1250 6500 1250
 Text HLabel 4675 4650 0    60   Input ~ 12
 LSUIP1
 Wire Wire Line
 	3750 3400 3700 3400
 Connection ~ 3750 3400
 Connection ~ 3700 3400
-Wire Wire Line
-	6500 1250 6500 1950
-Wire Wire Line
-	6500 1950 6850 1950
-Wire Wire Line
-	6850 1950 6850 2650
 $Comp
 L power:GND #PWR09
 U 1 1 5CFE27EA
@@ -1039,4 +1015,17 @@ F 4 "C23117" H -75 150 50  0001 C CNN "LCSC"
 	1    2325 4400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	6850 1250 6850 2650
+Connection ~ 6850 1250
+Wire Wire Line
+	5400 2250 5400 1250
+Wire Wire Line
+	5400 1250 6850 1250
+Wire Wire Line
+	5650 2250 5525 2250
+Connection ~ 5400 2250
+Connection ~ 5525 2250
+Wire Wire Line
+	5525 2250 5400 2250
 $EndSCHEMATC
