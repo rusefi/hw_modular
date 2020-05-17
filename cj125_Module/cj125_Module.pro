@@ -1,4 +1,4 @@
-update=4/10/2020 8:09:43 AM
+update=5/16/2020 8:58:43 PM
 version=1
 last_client=kicad
 [general]
@@ -355,7 +355,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
-PlotDirectoryName=./
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
