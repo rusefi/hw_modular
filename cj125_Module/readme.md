@@ -2,6 +2,10 @@ See also https://github.com/rusefi/rusefi/wiki/WBO
  
 [iBom](https://rusefi.com/docs/ibom/cj125_Module_latest.html)
 
+on this board UR does NOT have build-in resistor divider
+
+on this board UA resistor divider with 1.68 ratio
+
 | Module Pin  | Sensor wire  |
 |---|---|
 | HT1  | H+ constant +12v  |
