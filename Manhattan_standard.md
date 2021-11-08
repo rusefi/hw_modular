@@ -18,5 +18,5 @@ Rows 2 and 38 and +5v.
 
 All other pins are generic. If +12 supply is desired rows 3 and 37 are recommended but not required.
 
-All Manhattan modules are designed using https://kicad-pcb.org/
+All Manhattan modules are designed using https://kicad.org/
 Version 5 is preferred while version 4 is also still used.
