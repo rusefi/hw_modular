@@ -1,5 +1,8 @@
+This repo is abandoned because https://github.com/andreika-git/hellen-one is the way!
 
-Home of rusEfi modular prototyping hardware
+
+
+Home of rusEFI modular prototyping hardware
 
 https://github.com/rusefi/rusefi
 
